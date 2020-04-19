@@ -25,6 +25,7 @@ class _CalculadorState extends State<Calculador> {
     ]);
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Column(
         children: <Widget>[
           Display(memory.value),
